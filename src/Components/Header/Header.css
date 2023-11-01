@@ -1,0 +1,13 @@
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.headContainer > li{
+    list-style-type: none;
+    padding:20px;
+    
+}
+
+

@@ -1,0 +1,21 @@
+.mainnav > a {
+    width: 50%;
+    padding:15px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+}
+.mainnav{
+    display:flex;
+}
+
+.mainnav > a:link,a:visited{
+    text-decoration: none;
+}
+.maincontent{
+    margin: auto 20px;
+}
+
+.mainnav > a:hover {
+    background-color: rgb(173, 172, 172);
+}

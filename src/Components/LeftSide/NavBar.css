@@ -1,0 +1,32 @@
+.navbar > a:link, a:visited{
+    text-decoration:none;
+    color:black;
+    padding: 5px;
+
+}
+.navbar > a{
+    margin:10px;
+    display: block;
+}
+.navbar > a:active {
+    color: rgb(238, 99, 57);
+
+}
+.navbar>a:hover {
+    color: rgb(238, 99, 57);
+
+}
+.navbar{
+    width:230px;
+    position: relative;
+    box-shadow: 1px 1px 15px rgb(202, 195, 195);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 25px;
+}
+
+@media screen and (max-width:1000px){
+    .navbar {
+            display: none;
+        }
+}

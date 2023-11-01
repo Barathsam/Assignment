@@ -1,0 +1,40 @@
+.leftsideS{
+    float: left;
+    width:30%;
+}
+.mainS {
+    float: left;
+    width: 50%;
+}
+.rightsideS {
+    float: right;
+    width: 20%;
+}
+.maincard{
+    margin-right: 40px;
+}
+
+
+@media screen and (max-width:1160px) {
+    .mainS{
+        width:65%;
+    }
+     .rightsideS {
+        display: none;
+    }
+     .leftsideS {
+        width: 35%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .mainS {
+        width: 100%;
+        overflow: hidden;
+    }
+    .top{
+        overflow: hidden;
+    }
+        .gg {
+            margin: auto 20px;
+        }
+}

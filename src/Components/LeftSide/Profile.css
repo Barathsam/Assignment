@@ -1,0 +1,56 @@
+.profile > button{
+    position: absolute;
+    left: 95px;
+    top:215px;
+    border-radius: 15px;
+    width:85px;
+    height: 40px;
+    color: white;
+    background-color: rgb(255, 86, 29);
+    border:none;
+    cursor: pointer;
+}
+.info {
+    text-align: center;
+    line-height: 0.8;
+    font-size: 15px;
+}
+.followers{
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 0.5;
+    font-size: 15px;
+}
+.following {
+    text-align: center;
+    line-height: 0.5;
+    font-size: 15px;
+}
+.name {
+    font-weight: bold;
+    font-size:20px;
+}
+.id{
+    font-size:12px;
+    line-height: 0.1;
+}
+.user {
+    line-height: 0.1;
+    padding:5px;
+}
+.profile{
+        width: 230px;
+        position: relative;
+        box-shadow: 1px 1px 15px rgb(202, 195, 195);
+        border-radius: 10px;
+        margin: 30px;
+        padding: 25px;
+        line-height:0;
+}
+
+@media screen and (max-width:1000px) {
+    .profile {
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+.Posts{
+    border-bottom: 1px solid grey;
+    margin-bottom:20px;
+}
+.interaction > p{
+    display: inline;
+    padding-right: 20px;
+}
+.userpost{
+    display:flex;
+    align-items: center;
+}
+
